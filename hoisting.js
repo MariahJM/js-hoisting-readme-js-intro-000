@@ -19,11 +19,11 @@ function crazy() {
 
 function sayMyName() {
   // fix the code in here:
-  function sayMy() {
-    console.log(name);
-    var name = "Kristin";
-  }
   var name = "Cricky";
+  function sayMy() {
+    var name = "Kristin";
+    console.log(name);
+  }
 
   sayMy();
 
